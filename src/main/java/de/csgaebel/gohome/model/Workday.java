@@ -52,7 +52,7 @@ public class Workday {
 		long hours = timeElapsed.toHours();
 		long minutes = timeElapsed.minusHours(hours).toMinutes();
 		
-		return  "Uptime: " + hours + " Stunden u. " + minutes + " Minuten";
+		return  "Das System läuft heute bereits für " + hours + " Stunden und " + minutes + " Minuten";
 	}
 	
 	public String toString(){
