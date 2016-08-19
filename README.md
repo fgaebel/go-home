@@ -14,6 +14,8 @@ java training project
 Please note if the power option "fast startup" is active this program will most likely display 
 false data. (Source: https://www.pipperr.de/dokuwiki/doku.php?id=windows:windows_uptime)
 
+JRE 1.8 is required to run go-home
+
 ###Usage
 
 1. Create GetHome.jar
