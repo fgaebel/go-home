@@ -50,7 +50,7 @@ public class OSUptime {
 		} else if (OSValidator.isUnix()) {
 				os_active_seconds = getUnixUptime();
 		} else {
-			System.out.println("Your OS is not support!!");
+			System.out.println("Your OS is not supported!!");
 		}
 		return os_active_seconds;
 	}

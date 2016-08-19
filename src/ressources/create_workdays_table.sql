@@ -1,0 +1,6 @@
+CREATE TABLE `workdays` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`start`	NUMERIC,
+	`end`	NUMERIC,
+	`lunch_break`	INTEGER
+);
